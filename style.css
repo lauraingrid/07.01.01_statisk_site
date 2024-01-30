@@ -1,0 +1,12 @@
+* {
+  background-color: antiquewhite;
+}
+
+.nav-menu {
+  display: flex;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: grey;
+}

@@ -1,0 +1,18 @@
+.kategori_item img {
+  max-width: 400px;
+  max-height: 400px;
+  padding: 20px;
+}
+
+.kategorier {
+  margin: 40px;
+}
+
+@media (min-width: 1000px) {
+  .kategorier {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    padding: 20px;
+  }
+}
