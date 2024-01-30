@@ -1,11 +1,71 @@
-.kategori_item img {
-  max-width: 400px;
-  max-height: 400px;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #fcf5c7;
+  margin: 30px;
+  font-size: 40px;
+}
+
+h2 {
+  color: #241e4e;
+  margin: 30px;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 30px;
+  margin: 40px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #241e4e;
+  font-size: 20px;
+}
+
+.nav-menu a:hover {
+  color: #fcf5c7;
+}
+
+.kategori_item {
+  text-decoration: none;
+  color: #241e4e;
+  font-size: 16px;
   padding: 20px;
 }
 
-.kategorier {
+.kategori_item:hover {
+  color: #ffdd00;
+}
+
+/* produktliste */
+
+.produktkort img {
+  width: 350px;
+  margin: auto;
+}
+
+.produktkort {
   margin: 40px;
+  background-color: #e7e7f7;
+  border-radius: 15px;
+  padding: 20px;
+  gap: 10px;
+}
+
+@media (max-width: 1000px) {
+  .kategorier {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fcf5c7;
+    max-width: 200px;
+    border-radius: 15px;
+  }
 }
 
 @media (min-width: 1000px) {
@@ -13,6 +73,17 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: auto;
-    padding: 20px;
+    gap: 20px;
+    padding: 40px;
+    background-color: none;
+  }
+
+  .kategori_item {
+    background-color: #fcf5c7;
+    margin: auto;
+    width: 400px;
+    height: 70px;
+    color: #241e4e;
+    text-align: center;
   }
 }
