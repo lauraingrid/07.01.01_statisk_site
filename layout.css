@@ -4,3 +4,10 @@
     flex-direction: column;
   }
 }
+
+@media (min-width: 1000px) {
+  .produktliste {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
