@@ -1,3 +1,125 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  background-color: #d5d5f8;
+  background-color: #fceffa;
+}
+
+header {
+  background-color: #ffa8d3;
+  height: 100px;
+  width: 530px;
+  border-radius: 15px;
+  margin-left: 20px;
+  padding-top: 1px;
+}
+
+p {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+h1 {
+  color: #18206f;
+  margin: 30px;
+  font-size: 40px;
+}
+
+h2 {
+  color: #241e4e;
+  margin: 30px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+a {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+/* Menu */
+.nav-menu {
+  display: flex;
+  gap: 30px;
+  margin: 40px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #241e4e;
+  font-size: 20px;
+}
+
+.nav-menu a:hover {
+  color: #fcf5c7;
+}
+
+/* Kategori */
+.kategori_item {
+  text-decoration: none;
+  color: #241e4e;
+  font-size: 16px;
+  padding: 20px;
+}
+
+.kategori_item:hover {
+  color: #ffa8d3;
+}
+
+/* produktliste */
+
+.produktkort img {
+  width: 350px;
+  margin: auto;
+  align-self: center;
+}
+
+.produktkort {
+  margin: 40px;
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+  gap: 10px;
+  width: 400px;
+}
+
+@media (max-width: 1000px) {
+  .kategorier {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    max-width: 200px;
+    border-radius: 15px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .kategorier {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    gap: 20px;
+    padding: 40px;
+    background-color: none;
+  }
+
+  .kategori_item {
+    background-color: white;
+    margin: auto;
+    width: 400px;
+    height: 70px;
+    color: #241e4e;
+    text-align: center;
+    border: 1px solid #fcf5c7;
+    border-radius: 15px;
+  }
+
+  .kategori_item:hover {
+    color: white;
+    background-color: #fcf5c7;
+  }
 }
