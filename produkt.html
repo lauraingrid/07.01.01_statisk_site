@@ -25,18 +25,27 @@
 
         <ul class="breadcrumbs">
             <li><a href="index.html">Forside</a></li>
-            <li><a href="kategori.html"> / Brands</a></li>
-            <li><a href="produktliste.html">/ Puma</a></li>
-            <li> <a href="produkt.html"> / Puma rød T-Shirt med logo</a></li>
+            <li class="Kategori_valgt"><a href="kategori.html"> / <span></span></a></li>
+            <li class="Brand_valgt"><a href="produktliste.html">/ <span></span></a></li>
+            <li class="produkt_valgt"> <a href="#"> / <span></span></a></li>
         </ul>
 
 
-        <div class="produkt">
-            <h1>T shirt</h1>
+        <div class="produktboks">
+            <h1>produkt</h1>
             <img src="https://kea-alt-del.dk/t7/images/webp/1000/1533.webp " alt="Tights">
-            <h3>Rød Tshirt med print</h3>
-            <p>Til mænd</p>
-            <p>200 kr</p>
+
+            <div class="produktinfo">
+                <h2>Produkt Information</h2>
+                <h3>Farve</h3>
+                <p class="farve"> eks blå </p>
+                <h3>Brand</h3>
+                <p class="brand"> eks Fila</p>
+                <h3>Pris</h3>
+                <p class="pris"><span></span> kr</p>
+
+            </div>
+
 
             <div class="koeb_felt">
                 <label class="stoerrelse">
@@ -59,7 +68,7 @@
 
         </div>
     </main>
-
+    <script src="js/produkt.js"></script>
 </body>
 
 </html>

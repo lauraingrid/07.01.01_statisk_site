@@ -94,7 +94,7 @@ a {
 
 /* produkt */
 
-.produkt {
+.produktboks {
   background-color: white;
   margin: 40px;
   border-radius: 15px;
@@ -102,13 +102,13 @@ a {
   width: 470px;
 }
 
-.produkt img {
+.produktboks img {
   width: 350px;
   margin: 10px;
 }
 
-.produkt h3,
-.produkt p {
+.produktboks h3,
+.produktboks p {
   padding: 5px;
 }
 
@@ -214,7 +214,7 @@ breadcrumbs li::after {
 
   /* Produkt */
 
-  .produkt {
+  .produktboks {
     background-color: white;
     margin: 60px;
     border-radius: 15px;
@@ -222,7 +222,7 @@ breadcrumbs li::after {
     width: 870px;
   }
 
-  .produkt img {
+  .produktboks img {
     width: 750px;
     margin: 10px;
   }
