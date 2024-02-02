@@ -86,6 +86,89 @@ a {
   width: 400px;
 }
 
+/* produkt */
+
+.produkt {
+  background-color: white;
+  margin: 40px;
+  border-radius: 15px;
+  padding: 15px;
+  width: 470px;
+}
+
+.produkt img {
+  width: 350px;
+  margin: 10px;
+}
+
+.produkt h3,
+.produkt p {
+  padding: 5px;
+}
+
+.koeb_knap {
+  background-color: #ffa8d3;
+  width: 80px;
+  height: fit-content;
+  padding: 10px;
+  border-radius: 15px;
+  text-align: center;
+  margin-left: 100px;
+}
+
+.koeb_knap a {
+  text-decoration: none;
+}
+
+.koeb_knap:hover {
+  background-color: #fcf5c7;
+  cursor: pointer;
+}
+
+.stoerrelse {
+  display: flex;
+  background-color: #fceffa;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.stoerrelse select {
+  color: #ffa8d3;
+  border: none;
+  background-color: white;
+  border-radius: 5px;
+  margin-left: 20px;
+  width: 70px;
+}
+
+.koeb_felt {
+  display: flex;
+  margin: 20px;
+}
+
+.breadcrumbs {
+  display: flex;
+  gap: 50px;
+  margin: 30px;
+  list-style: none;
+}
+
+.breadcrumbs a {
+  text-decoration: none;
+  color: #18206f;
+  font-size: 13px;
+}
+
+breadcrumbs li::after {
+  content: " > ";
+  font-size: 0.6rem;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 10px;
+  transition: all 0.3s;
+}
+
 @media (max-width: 1000px) {
   .kategorier {
     margin: 40px;
@@ -121,5 +204,20 @@ a {
   .kategori_item:hover {
     color: white;
     background-color: #fcf5c7;
+  }
+
+  /* Produkt */
+
+  .produkt {
+    background-color: white;
+    margin: 60px;
+    border-radius: 15px;
+    padding: 15px;
+    width: 870px;
+  }
+
+  .produkt img {
+    width: 750px;
+    margin: 10px;
   }
 }

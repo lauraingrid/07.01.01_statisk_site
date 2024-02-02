@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="layout.css">
 </head>
 
 <body>
@@ -20,8 +23,41 @@
 
     <main>
 
-        <h1>Produkter</h1>
+        <ul class="breadcrumbs">
+            <li><a href="index.html">Forside</a></li>
+            <li><a href="kategori.html"> / Brands</a></li>
+            <li><a href="produktliste.html">/ Puma</a></li>
+            <li> <a href="produkt.html"> / Puma rød T-Shirt med logo</a></li>
+        </ul>
 
+
+        <div class="produkt">
+            <h1>T shirt</h1>
+            <img src="https://kea-alt-del.dk/t7/images/webp/1000/1533.webp " alt="Tights">
+            <h3>Rød Tshirt med print</h3>
+            <p>Til mænd</p>
+            <p>200 kr</p>
+
+            <div class="koeb_felt">
+                <label class="stoerrelse">
+                    <p>Choose a size</p>
+                    <select name="size">
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                        <option>XL</option>
+                    </select>
+                </label>
+
+
+                <div class="koeb_knap">
+                    <a href="produkt.html">KØB</a>
+                </div>
+
+            </div>
+
+
+        </div>
     </main>
 
 </body>
