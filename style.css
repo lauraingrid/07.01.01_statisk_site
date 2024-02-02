@@ -7,6 +7,12 @@
   padding: 0;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 body {
   background-color: #fceffa;
 }
@@ -184,7 +190,6 @@ breadcrumbs li::after {
   .kategorier {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: auto;
     gap: 20px;
     padding: 40px;
     background-color: none;
@@ -194,9 +199,7 @@ breadcrumbs li::after {
     background-color: white;
     margin: auto;
     width: 400px;
-    height: 70px;
     color: #241e4e;
-    text-align: center;
     border: 1px solid #fcf5c7;
     border-radius: 15px;
   }
