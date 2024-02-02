@@ -189,7 +189,9 @@ breadcrumbs li::after {
 @media (min-width: 1000px) {
   .kategorier {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1400px;
+    margin: auto;
+    grid-template-columns: repeat(auto-fill, 400px);
     gap: 20px;
     padding: 40px;
     background-color: none;
@@ -202,6 +204,7 @@ breadcrumbs li::after {
     color: #241e4e;
     border: 1px solid #fcf5c7;
     border-radius: 15px;
+    text-align: center;
   }
 
   .kategori_item:hover {
